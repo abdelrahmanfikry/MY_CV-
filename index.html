@@ -1,0 +1,421 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="سيرة ذاتية تفاعلية لمحمد علي - مطور ويب ومحلل بيانات">
+    <title> Abdelrahman Fikry Abdelmoghny  </title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Tajawal:wght@400;500;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/chart.js@3.7.1/dist/chart.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- شريط التنقل -->
+    <nav class="glass-nav">
+        <div class="container">
+            <div class="logo">
+                <a href="#"><span>AF</span></a>
+            </div>
+            <ul class="nav-links">
+                <li><a href="#home"><i class="fas fa-home"></i>Home  </a></li>
+                <li><a href="#about"><i class="fas fa-user"></i> About </a></li>
+                <li><a href="#skills"><i class="fas fa-code"></i>Skills </a></li>
+                <!--<li><a href="#experience"><i class=" fas fa-briefcase"></i>experience </a></li>-->
+               <li><a href="#contact"><i class="fas fa-envelope"></i> contact</a></li>
+               <li><a href="#projects"><i class="fas fa-briefcase"></i> projects</a></li>
+                <li><button id="download-cv" class="btn-download">
+                    <i class="fas fa-download"></i> download_CV 
+                </button></li>
+            </ul>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- قسم البطل -->
+    <section id="home" class="hero">
+        <div class="particles" id="particles-js"></div>
+        <div class="container">
+            <div class="hero-content">
+                <h1>Hi my name is  <span class="highlight">Abdelrahman Fikry </span></h1>
+                <p class="typing-animation"></p>
+                <div class="hero-buttons">
+                    <a href="#about" class="btn btn-primary">about me  </a>
+                    <a href="#contact" class="btn btn-outline">my contact </a>
+                </div>
+                <div class="hero-social">
+                   <a href="https://github.com/abdelrahmanfikry" target="_blank">
+                         <i class="fab fa-github"></i> GitHub
+                    </a>
+                    <a href="https://github.com/abdelrahmanfikry" target="_blank"><i class="fab fa-linkedin"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <P>                 
+
+                    </P>
+                </div>
+            </div>
+            <div class="hero-image">
+             <p>   </p>
+                <img src="me.jpg" alt=" aBDELRAHMAN FIKRY PICTURE NOT FOUND  " class="profile-img">
+            </div>
+        </div>
+    </section>
+
+    <!-- قسم عني -->
+    <section id="about" class="about">
+        <div class="container">
+            <h2 class="section-title">  about abdelrahman fikry </h2>
+            <div class="about-grid">
+                <div class="about-card">
+                    <div class="about-icon">
+                        <i class="fas fa-user-tie"></i>
+                    </div>
+                    <h3>personal details  </h3>
+                    <ul class="info-list">
+                        <li><span>Name:</span>  abdelrahamn fikry abdelmoghny  </li>
+                        <li><span>Age :</span> 22 years old  </li>
+                        <li><span>country :</span> egypt</li>
+                        <li><span>Specialization:</span>Web development and data analysis</li>
+                    </ul>
+                </div>
+                <div class="about-card">
+                    <div class="about-icon">
+                        <i class="fas fa-graduation-cap"></i>
+                    </div>
+                    <h3>Education </h3>
+                    <div class="education-item">
+                        <h4>  </h4>
+                        <p>  tanta unviresty -2025</p>
+                        <p>  GPA 3.4: 4</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- قسم المهارات -->
+    <section id="skills" class="skills">
+        <div class="container">
+            <h2 class="section-title"> my skill</h2>
+            <div class="skills-grid">
+                <div class="skill-category">
+                    <h3><i class="fas fa-laptop-code"></i>  web development</h3>
+                    <div class="skills-list">
+                        <div class="skill-item">
+                            <span>HTML</span>
+                            <div class="skill-bar" data-level="95"></div>
+                        </div>
+                        <div class="skill-item">
+                            <span>CSS</span>
+                            <div class="skill-bar" data-level="95">
+                                
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <span>JavaScript</span>
+                            <div class="skill-bar" data-level="90"></div>
+                        </div>
+                        <div class="skill-item">
+                            <span>React.js</span>
+                            <div class="skill-bar" data-level="85"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <h3><i class="fas fa-database"></i> data analysis </h3>
+                    <div class="skills-list">
+                        <div class="skill-item">
+                            <span>Python</span>
+                            <div class="skill-bar" data-level="88"></div>
+                        </div>
+                        <div class="skill-item">
+                            <span>Pandas/Numpy</span>
+                            <div class="skill-bar" data-level="80"></div>
+                        </div>
+                        <div class="skill-item">
+                            <span>SQL</span>
+                            <div class="skill-bar" data-level="90"></div>
+                        </div>
+                        <div class="skill-item">
+                            <span> power BI</span>
+                            <div class="skill-bar" data-level="90"></div>
+                        </div>
+                        <div class="skill-item">
+                            <span>ُExcel</span>
+                            <div class="skill-bar" data-level="95"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- قسم الخبرات -->
+     <!--
+    <section id="experience" class="experience">
+        <div class="container">
+            <h2 class="section-title">خبراتي العملية</h2>
+            <div class="timeline">
+                <div class="timeline-item">
+                    <div class="timeline-date">2021 - الحاضر</div>
+                    <div class="timeline-content">
+                        <h3>مطور ويب أول</h3>
+                        <h4>شركة التقنية المتقدمة</h4>
+                        <ul>
+                            <li>تطوير وإدارة واجهات المستخدم باستخدام React.js</li>
+                            <li>تحسين أداء التطبيقات بنسبة 40%</li>
+                            <li>قيادة فريق مكون من 5 مطورين</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-date">2018 - 2021</div>
+                    <div class="timeline-content">
+                        <h3>محلل بيانات</h3>
+                        <h4>شركة البيانات الذكية</h4>
+                        <ul>
+                            <li>تحليل مجموعات البيانات الكبيرة باستخدام Python</li>
+                            <li>إنشاء لوحات تحكم تفاعلية لعرض النتائج</li>
+                            <li>تقديم توصيات عمل بناءً على التحليلات</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+-->
+    <!-- قسم المشاريع -->
+    <section id="projects" class="projects">
+        <div class="container">
+            <h2 class="section-title">  My projects </h2>
+            <div class="projects-grid">
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="profile.jpg" alt="مشروع لوحة التحكم">
+                    </div>
+                    <div class="project-content">
+                        <h3>لوحة تحكم تحليلات الأعمال</h3>
+                        <p>لوحة تحكم تفاعلية لعرض مؤشرات الأداء الرئيسية</p>
+                        <div class="project-tech">
+                            <span>React</span>
+                            <span>Chart.js</span>
+                            <span>Node.js</span>
+                        </div>
+                        <a href="#" class="btn btn-small">عرض التفاصيل</a>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="assets/project2.jpg" alt="مشروع نظام التوصية">
+                    </div>
+                    <div class="project-content">
+                        <h3>نظام توصية المنتجات</h3>
+                        <p>نظام توصية باستخدام خوارزميات التعلم الآلي</p>
+                        <div class="project-tech">
+                            <span>Python</span>
+                            <span>Flask</span>
+                            <span>Scikit-learn</span>
+                        </div>
+                        <a href="#" class="btn btn-small">عرض التفاصيل</a>
+                    </div>
+                </div>
+          <!-- من هنا حطه صح -->
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="assets/project2.jpg" alt="مشروع نظام التوصية">
+                    </div>
+                    <div class="project-content">
+                        <h3>نظام توصية المنتجات</h3>
+                        <p>نظام توصية باستخدام خوارزميات التعلم الآلي</p>
+                        <div class="project-tech">
+                            <span>Python</span>
+                            <span>Flask</span>
+                            <span>Scikit-learn</span>
+                        </div>
+                        <a href="#" class="btn btn-small">عرض التفاصيل</a>
+                    </div>
+                </div>
+            
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="assets/project2.jpg" alt="مشروع نظام التوصية">
+                    </div>
+                    <div class="project-content">
+                        <h3>نظام توصية المنتجات</h3>
+                        <p>نظام توصية باستخدام خوارزميات التعلم الآلي</p>
+                        <div class="project-tech">
+                            <span>Python</span>
+                            <span>Flask</span>
+                            <span>Scikit-learn</span>
+                        </div>
+                        <a href="#" class="btn btn-small">عرض التفاصيل</a>
+                    </div>
+                </div>
+            
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="assets/project2.jpg" alt="مشروع نظام التوصية">
+                    </div>
+                    <div class="project-content">
+                        <h3>نظام توصية المنتجات</h3>
+                        <p>نظام توصية باستخدام خوارزميات التعلم الآلي</p>
+                        <div class="project-tech">
+                            <span>Python</span>
+                            <span>Flask</span>
+                            <span>Scikit-learn</span>
+                        </div>
+                        <a href="#" class="btn btn-small">عرض التفاصيل</a>
+                    </div>
+                </div>
+            
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="assets/project2.jpg" alt="مشروع نظام التوصية">
+                    </div>
+                    <div class="project-content">
+                        <h3>نظام توصية المنتجات</h3>
+                        <p>نظام توصية باستخدام خوارزميات التعلم الآلي</p>
+                        <div class="project-tech">
+                            <span>Python</span>
+                            <span>Flask</span>
+                            <span>Scikit-learn</span>
+                        </div>
+                        <a href="#" class="btn btn-small">عرض التفاصيل</a>
+                    </div>
+                </div>
+            
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="assets/project2.jpg" alt="مشروع نظام التوصية">
+                    </div>
+                    <div class="project-content">
+                        <h3>نظام توصية المنتجات</h3>
+                        <p>نظام توصية باستخدام خوارزميات التعلم الآلي</p>
+                        <div class="project-tech">
+                            <span>Python</span>
+                            <span>Flask</span>
+                            <span>Scikit-learn</span>
+                        </div>
+                        <a href="#" class="btn btn-small">عرض التفاصيل</a>
+                    </div>
+                </div>
+            
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="assets/project2.jpg" alt="مشروع نظام التوصية">
+                    </div>
+                    <div class="project-content">
+                        <h3>نظام توصية المنتجات</h3>
+                        <p>نظام توصية باستخدام خوارزميات التعلم الآلي</p>
+                        <div class="project-tech">
+                            <span>Python</span>
+                            <span>Flask</span>
+                            <span>Scikit-learn</span>
+                        </div>
+                        <a href="#" class="btn btn-small">عرض التفاصيل</a>
+                    </div>
+                </div>
+            
+        </div>
+    </section>
+
+    <!-- قسم التواصـل -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2 class="section-title"> contact me </h2>
+            <div class="contact-grid">
+                <div class="contact-info">
+                    <h3><i class="fas fa-paper-plane"></i> contact information  </h3>
+                    <div class="info-item">
+                        <i class="fas fa-envelope"></i>
+                        <span>abdelrahmanfikry1.com</span>
+                    </div>
+                    <div class="info-item">
+                        <i class="fas fa-phone"></i>
+                        <span>01552294082</span>
+                    </div>
+                    <div class="info-item">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <span> egypt </span>
+                    </div>
+                    <div class="info-item">
+                        <i class="fas fa-whatsapp"></i>
+                        <span> <a href="https://wa.me/qr/6LXHRPBGEJSFD1",>Whatsapp </a>  </span>
+                    </div>
+                    <div class="info-item">
+                        <i class="fas fa-envelope"></i>
+                        <span> <b><a href="mailto:abdelrahmanfikry1@gmail.com",>Email</a></b>  </span>
+                    </div>
+                    <div class="contact-social">
+                        <a href="#"><i class="fab fa-github"></i></a>
+                        <a href="#"><i class="fab fa-linkedin"></i></a>
+                       <!-- <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-kaggle"></i></a>-->
+                    </div>
+                    <button id="contact-download" class="btn-download">
+                        <i class="fas fa-download"></i> download cv   
+                    </button>
+                </div>
+                
+               <!-- <form class="contact-form" id="contactForm">
+                    <div class="form-group">
+                        <input type="text" placeholder="اسمك الكامل" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="email" placeholder="بريدك الإلكتروني" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="text" placeholder="الموضوع">
+                    </div>
+                    <div class="form-group">
+                        <textarea placeholder="رسالتك" required></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary">
+                        <i class="fas fa-paper-plane"></i> إرسال الرسالة
+                    </button>
+                </form>-->
+            </div>
+        </div>
+    </section>
+
+    <!-- الفوتر -->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <span>MA</span>
+                    <p> Abdelrahman Fikry web developer and data analyst  </p>
+                </div>
+                <div class="footer-links">
+                    <a href="#home">home</a>
+                    <a href="#about">about </a>
+                    <a href="#skills">skill</a>
+                    <a href="#experience">experience</a>
+                    <a href="#contact">contact</a>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy;abdelrahman fikry</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="https://cdn.jsdelivr.net/npm/chart.js@3.7.1/dist/chart.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf-autotable/3.5.25/jspdf.plugin.autotable.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/canvas2image@1.0.5/canvas2image.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
+
+<script>
+    // Make jsPDF available globally
+    window.jsPDF = window.jspdf.jsPDF;
+</script>
+<script src="script3.js"></script>
+</body>
+</html>
